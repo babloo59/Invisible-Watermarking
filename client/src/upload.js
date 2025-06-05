@@ -141,14 +141,14 @@ function Upload() {
             <div className="bg-slate-600 p-4 rounded-lg shadow-md text-center">
               <h4 className="mb-2 font-semibold">Watermarked Image</h4>
               <img
-                src={`http://localhost:5000${result.watermarked_url}`}
+                src={`https://invisible-watermarking-wnw2.onrender.com/${result.watermarked_url}`}
                 width={200}
                 alt="Watermarked"
                 className="mx-auto"
               />
               <a
                 className="mt-4 inline-block bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-lg"
-                href={`http://localhost:5000${result.watermarked_url}`}
+                href={`https://invisible-watermarking-wnw2.onrender.com/${result.watermarked_url}`}
                 download
               >
                 Download
@@ -159,14 +159,14 @@ function Upload() {
             <div className="bg-slate-600 p-4 rounded-lg shadow-md text-center">
               <h4 className="mb-2 font-semibold">Recovered Watermark</h4>
               <img
-                src={`http://localhost:5000${result.recovered_url}`}
+                src={`https://invisible-watermarking-wnw2.onrender.com/${result.recovered_url}`}
                 width={200}
                 alt="Recovered"
                 className="mx-auto"
               />
               <a
                 className="mt-4 inline-block bg-blue-700 hover:bg-blue-800 text-white px-4 py-2 rounded-lg"
-                href={`http://localhost:5000${result.recovered_url}`}
+                href={`https://invisible-watermarking-wnw2.onrender.com/${result.recovered_url}`}
                 download
               >
                 Download

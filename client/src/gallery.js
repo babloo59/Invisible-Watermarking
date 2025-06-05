@@ -30,7 +30,7 @@ function Gallery() {
               <div className="mb-4">
                 <p className="text-sm text-gray-300">Watermarked Image:</p>
                 <img
-                  src={`http://localhost:5000/uploads/${img.watermarked}`}
+                  src={`https://invisible-watermarking-wnw2.onrender.com/uploads/${img.watermarked}`}
                   alt="Watermarked"
                   className="w-full h-auto rounded mt-2"
                 />
@@ -47,7 +47,7 @@ function Gallery() {
               <div>
                 <p className="text-sm text-gray-300">Recovered Watermark:</p>
                 <img
-                  src={`http://localhost:5000/uploads/${img.recovered}`}
+                  src={`https://invisible-watermarking-wnw2.onrender.com/uploads/${img.recovered}`}
                   alt="Recovered"
                   className="w-full h-auto rounded mt-2"
                 />
